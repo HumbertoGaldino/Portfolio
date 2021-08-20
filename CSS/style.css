@@ -8,7 +8,15 @@
 .container{
     max-width: 1280px;
     margin: 0 auto;
-    text-align: center;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 }
 
 header{    
@@ -164,6 +172,8 @@ header{
 }
 
 .about{
+    width: 100%;
+    height: 90vh;
     background-color: #ececec;
 }
 
@@ -180,20 +190,29 @@ header{
     align-items: center;  
 }
 
-.about-picture{
-    background-color: #202020;
-    justify-content: left;
-    position: relative;
-    left: -100px;
-    top: -20px;
+.about-picture-wrap{
+    width: 50%;
+   
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
-.about-picture img{
-    height: 70%;
+.about-picture-wrap img{
+    width: 90%;
     background-size: cover;
+}
+
+.about-circles{
+    width: 40%;
     position: relative;
-    left: 70px;
-    top: 50px;
+    top: 30px;
 }
 
 .text-about{
@@ -202,6 +221,8 @@ header{
 
 .text-about-wrap{
     width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
     
     display: -webkit-box;
     display: -moz-box;
@@ -233,7 +254,7 @@ header{
     z-index: 10;
 }
 
-.line{
+.line-about{
     height: 30px;
     width: 210px;
     background-color: #fff21c;
@@ -245,6 +266,7 @@ header{
 .text-about p{
     margin-top: 40px;
     margin-left: 100px;
+    margin-right: 55px;
     text-align: left;
 }
 
@@ -256,4 +278,60 @@ header{
     width: 80%;
 }
 
+.stacks{
+    width: 100%;
+    height: 90vh;
+    background-color: #5d5d5d;
+    position: relative;
+}
 
+.title-stacks-wrap{
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: center;
+    align-items: center; 
+
+    padding: 30px;
+}
+
+.title-stacks{
+    width: 50%;
+}
+
+.title-stacks h4{
+    font-size: 25px;
+    color: black;
+    text-align: right;
+}
+
+.title-stacks h1{
+    font-size: 60px;
+    color: black;
+    margin-bottom: -25px;
+    text-align: right;
+    position: relative;
+    z-index: 2;
+}
+
+.line-stack{
+    height: 30px;
+    width: 270px;
+    background-color: #fff21c;
+    float: right;
+    position: relative;
+    top:-65px;
+}
+
+.title-stacks-wrap-img{
+    width: 50%;
+    text-align: left;
+}
+
+.title-stacks-wrap-img img{
+    margin-left: 30px;
+}
