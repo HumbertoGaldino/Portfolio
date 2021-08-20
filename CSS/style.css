@@ -6,7 +6,9 @@
 }
 
 .container{
-    max-width: 1400px;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 header{    
@@ -118,7 +120,7 @@ header{
 .textbox .textbox-wrap h4{
     font-size: 50px;
     font-weight: 500;
-    margin-bottom: -35px;
+    margin-bottom: -40px;
     color: white;
     margin-left: -1px;
 }
@@ -132,7 +134,7 @@ header{
 }
 
 .textbox .textbox-wrap h3{
-    max-width: 50%;
+    max-width: 60%;
     font-size: 20px;
     letter-spacing: 2px;
     padding: 5px;
@@ -159,7 +161,6 @@ header{
     max-width:100%;
     max-height:100%; 
     background-size: cover;
-    overflow: hidden;
 }
 
 .about{
@@ -180,7 +181,79 @@ header{
 }
 
 .about-picture{
+    background-color: #202020;
+    justify-content: left;
+    position: relative;
+    left: -100px;
+    top: -20px;
+}
+
+.about-picture img{
+    height: 70%;
+    background-size: cover;
+    position: relative;
+    left: 70px;
+    top: 50px;
+}
+
+.text-about{
     width: 50%;
+}
+
+.text-about-wrap{
+    width: 100%;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;  
+}
+
+.text-about-wrap-text{
+    width: 50%;
+    text-align: right;
+    position: relative;    
+}
+
+.text-about-wrap-text h4{
+    font-size: 25px;
+    margin-bottom: -30px;
+    margin-right: 50px;
+}
+
+.text-about-wrap-text h1{
+    font-size: 60px;
+    margin-bottom: -15px; 
+    margin-right: 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.line{
+    height: 30px;
+    width: 210px;
+    background-color: #fff21c;
+    position: absolute;
+    right: 10;
+    bottom: 0;
+}
+
+.text-about p{
+    margin-top: 40px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.text-about-wrap-img{
+    width: 50%;
+}
+
+.text-about-wrap img{
+    width: 80%;
 }
 
 
