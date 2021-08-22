@@ -332,7 +332,6 @@ header{
 .title-stacks h4{
     font-size: 25px;
     color: black;
-    text-align: right;
     margin-right: 4px;
 }
 
@@ -340,7 +339,6 @@ header{
     font-size: 60px;
     color: black;
     margin-bottom: -25px;
-    text-align: right;
     position: relative;
     z-index: 2;
 }
@@ -349,20 +347,22 @@ header{
     height: 30px;
     width: 270px;
     background-color: #fff21c;
-    float: right;
+    float: left;
     position: relative;
     top:-65px;
-    left:-4px;
+    left: 3px;
 }
 
 .title-stacks-wrap-img{
     width: 40%;
-    text-align: left;
+    text-align: right;
 }
 
 .title-stacks-wrap-img img{
-    margin-left: 30px;
-    width: 10%;
+    margin-right: 10px;
+    width: 15%;
+    position: relative;
+    top: -30px;
 }
 
 .tech-stacks{
@@ -392,7 +392,7 @@ header{
     width: 100%;
     height: 100vh;
     background: white;
-    padding-top: 10vh;
+    padding-top: 12vh;
 }
 
 .project-img-right{
@@ -439,14 +439,14 @@ header{
     float: right;
     position: relative;
     top:-50px;
-    left:-4px;
+    right:-2px;
     z-index: 1;
 }
 
 .circles-project{
     width: 5vw;
     height: 11vh;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .circles-project img{
@@ -483,7 +483,7 @@ header{
 }
 
 .box-2:hover{
-    opacity: 1;
+    opacity: 0.75;
 }
 
 .box-2 h1{
@@ -511,4 +511,66 @@ header{
     background-size: cover;
     background-position: center;
     background-image:url(../Images/page3.png);
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: #ececec ;
+    padding-top: 15vh;
+}
+
+.title-contact-wrap{
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+    position: relative;    
+}
+
+.title-contact-wrap h1{
+    font-size: 60px;
+    color: black;
+    margin-bottom: -25px;
+    text-align: right;
+    position: relative;
+    z-index: 2;
+}
+
+.title-contact-wrap h4{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-right: 4px;
+    position: relative;
+    z-index: 3;
+}
+
+.line-contact{
+    height: 30px;
+    width: 270px;
+    background-color: #fff21c;
+    float: left;
+    position: relative;
+    top:-50px;
+    left: 1px;
+    z-index: 1;
+}
+
+.circles-contact{
+    width: 8vw;
+    height: 10vh;
+    margin-right: 10px;
+    position: relative;
+    top: -28px;
+}
+
+.circles-contact img{
+    width: 100%;
+    background-size: contain;
 }
