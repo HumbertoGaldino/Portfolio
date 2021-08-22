@@ -305,7 +305,7 @@ header{
 .stacks-img2{
     width: 13%;
     position: absolute;
-    right: -10px;
+    right: 0;
     bottom: 20px;
 }
 
@@ -447,5 +447,68 @@ header{
     width: 5vw;
     height: 11vh;
     margin-right: 10px;
-    
+}
+
+.circles-project img{
+    width: 100%;
+    background-size: contain;
+}
+
+.projects-gallery{
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.box{
+    width: 33.3%;
+    height: 50vh;
+    background-color: #fff21c;
+    margin: 10px;  
+}
+
+.box-2{
+    width: 100%;
+    height: 100%;
+    background-color: #fff21c;
+    transition: 1s;
+    opacity: 0;  
+    position: relative;
+}
+
+.box-2:hover{
+    opacity: 1;
+}
+
+.box-2 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color:black;
+}
+
+.box:nth-child(1){
+    background-size: cover;
+    background-image:url(../Images/page1.png);
+}
+
+.box:nth-child(2){
+    background-size: cover;
+    background-position: center;
+    background-image:url(../Images/page2.png);
+}
+
+.box:nth-child(3){
+    background-size: cover;
+    background-position: center;
+    background-image:url(../Images/page3.png);
 }
