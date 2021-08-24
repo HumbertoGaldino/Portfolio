@@ -7,6 +7,7 @@
 
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 10vh;
 }
 
 .container{
@@ -94,15 +95,10 @@ header{
     border-bottom: 3px solid #fff21c;
 }
 
-.blind-spot{
-    width: 100%;
-    height: 10vh;
-    background:#171717;
-}
-
 .profile{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
+    padding-top: 10vh;
 
     display: -webkit-box;
     display: -moz-box;
@@ -184,7 +180,6 @@ header{
     width: 100%;
     height: 100vh;
     background-color: #ececec;
-    padding-top: 10vh;
 }
 
 .about-wrap{
@@ -292,7 +287,6 @@ header{
     width: 100%;
     height: 70vh;
     background-color: #5d5d5d;
-    padding-top: 10vh;
     position: relative;
 }
 
@@ -300,6 +294,7 @@ header{
     width: 15%;
     position: absolute;
     left: -10px;
+    top: 20px;
 }
 
 .stacks-img2{
@@ -392,7 +387,7 @@ header{
     width: 100%;
     height: 100vh;
     background: white;
-    padding-top: 12vh;
+    padding-top: 5vh;
 }
 
 .project-img-right{
@@ -517,7 +512,7 @@ header{
     width: 100%;
     height: 100vh;
     background: #ececec ;
-    padding-top: 15vh;
+    padding-top: 5vh;
 }
 
 .title-contact-wrap{
@@ -567,7 +562,7 @@ header{
     height: 10vh;
     margin-right: 10px;
     position: relative;
-    top: -28px;
+    top: -18px;
 }
 
 .circles-contact img{
